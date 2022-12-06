@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(75,0,130,.5);
+    
+}
+#logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+ul {
+    text-align: right;
+}
+ul li {  
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-image: url('Imagens_icones/capa.png');
+    background-color: #f4f4f4;
+}
+#menu {
+    display: flex;
+    text-align: right;
+    width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#middle {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+div#middle.h1 {
+    margin: 0
+}
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+button.margin-right {
+    margin-right: 20px;
+}
+.row {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50,50,0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+
+}
+.image {
+    float: right;
+    max-width: 140px;
+    max-height: 140px;
+}
+.yellow {
+    border-left: 3px solid yellow
+}
+.black {
+    border-left: 3px solid black
+
+}
+.green {
+    border-left: 3px solid green
+}
+footer {
+    background-color: rgb(75,0,130,.5);
+    padding: 5px 20px;
+    text-align: center;
+}
